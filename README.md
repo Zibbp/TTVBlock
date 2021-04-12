@@ -1,6 +1,6 @@
-# Twitch Adblock Extension
+# TTVBlock
 
-Twitch Adblock
+Twitch AdBlock
 
 ### Install
 

@@ -1,0 +1,31 @@
+{
+  "background": {
+    "scripts": ["js/background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "TTVBlock",
+    "default_icon": "images/icon_x128.png",
+    "default_popup": "common/html/popup.html"
+  },
+  "icons": {
+    "128": "images/icon_x128.png"
+  },
+  "name": "TTVBlock",
+  "description": "Simple and Efficient AdBlock for Twitch.",
+  "manifest_version": 2,
+  "version": "1.0.0",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://*.twitch.tv/*",
+    "https://usher.ttvnw.net/*",
+    "https://twitch.zibbp.tech/*"
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "TTVBlock@zibbp.tech",
+      "strict_min_version": "80.0"
+    }
+  }
+}
