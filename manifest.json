@@ -14,7 +14,7 @@
   "name": "TTVBlock",
   "description": "Simple and Efficient AdBlock for Twitch.",
   "manifest_version": 2,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "permissions": [
     "webRequest",
     "webRequestBlocking",
@@ -24,7 +24,7 @@
   ],
   "browser_specific_settings": {
     "gecko": {
-      "id": "TTVBlock@zibbp.tech",
+      "id": "TTVBlock@zibbp.net",
       "strict_min_version": "80.0"
     }
   }

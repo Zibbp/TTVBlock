@@ -2,7 +2,7 @@ function onBeforeRequest(details) {
   const match = /hls\/(.+?)$/gim.exec(details.url);
   if (match !== null && match.length > 1) {
     return {
-      redirectUrl: `https://twitch.zibbp.tech/playlist/${encodeURIComponent(
+      redirectUrl: `https://twitch.zibbp.net/playlist/${encodeURIComponent(
         match[1]
       )}`,
     };
